@@ -1,4 +1,8 @@
-#heading {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #heading {
     color: red;
 }
 
@@ -28,6 +32,7 @@
     width: 200px;
     height: 300px;
     border: 1px solid black;
+    margin: 10px;
 }
 .search {
     padding: 10px;
@@ -38,6 +43,8 @@
 
 }
 .res-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .shimmer-container {
@@ -49,3 +56,6 @@
     background-color: #f0f0f0;
     margin: 20px;
 }
+.filter {
+    display: flex;
+} */

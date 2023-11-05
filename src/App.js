@@ -11,6 +11,7 @@ import Grocary from "./components/Grocary";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
+import Demo from "./components/Demo";
 
 const Title = () => <h1>React App</h1>;
 const number = 10000;
@@ -71,6 +72,10 @@ const appRouter = createBrowserRouter([
       //   <Grocery />
       // </Suspense>,
       element: <Grocary/>
+      },
+      {
+        path:"/demo",
+        element: <Demo/>
       }
     ],
     errorElement: <Error />,
